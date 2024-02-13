@@ -432,3 +432,9 @@ footer.footer .copyright {
     width: 90%;
   }
 }
+
+@media (max-width: 360px) {
+  section.option .option-img img {
+    margin-right: -52px !important;
+  }
+}
