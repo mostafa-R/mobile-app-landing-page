@@ -432,20 +432,19 @@ footer.footer .copyright {
     width: 90%;
   }
 }
-
 @media (max-width: 360px) {
   section.option .option-img img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-right: -14px !important;
   }
   section.option {
-    padding-top: 0;
+    padding-top: 0 !important;
     padding-bottom: 200px !important;
   } 
 
   header.header .overlay .header-img img {
-    bottom: -500px;
-    right: 11%;
+    bottom: -500px !important;
+    right: 11% !important;
 }
 }
-
