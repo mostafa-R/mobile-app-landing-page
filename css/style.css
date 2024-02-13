@@ -436,7 +436,7 @@ footer.footer .copyright {
   section.option .option-img img {
     max-width: 100% !important;
     height: auto !important;
-    margin-right: -14px !important;
+    margin-right: auto !important;
   }
   section.option {
     padding-top: 0 !important;
@@ -446,5 +446,6 @@ footer.footer .copyright {
   header.header .overlay .header-img img {
     bottom: -500px !important;
     right: 11% !important;
+    margin: auto !important;
 }
 }
